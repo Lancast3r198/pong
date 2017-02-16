@@ -331,6 +331,7 @@ ChainMap	venv/lib/python3.6/collections/__init__.py	/^class ChainMap(MutableMapp
 CircleApp	venv/share/kivy-examples/canvas/circle.py	/^class CircleApp(App):$/;"	kind:class	line:79
 ClearBuffers	venv/share/kivy-examples/canvas/fbo_canvas.py	/^from kivy.graphics import Color, Rectangle, Canvas, ClearBuffers, ClearColor$/;"	kind:namespace	line:13
 ClearColor	venv/share/kivy-examples/canvas/fbo_canvas.py	/^from kivy.graphics import Color, Rectangle, Canvas, ClearBuffers, ClearColor$/;"	kind:namespace	line:13
+Clock	main.py	/^from kivy.clock import Clock$/;"	kind:namespace	line:5
 Clock	venv/share/kivy-examples/3Drendering/main.py	/^from kivy.clock import Clock$/;"	kind:namespace	line:16
 Clock	venv/share/kivy-examples/android/compass/main.py	/^from kivy.clock import Clock$/;"	kind:namespace	line:28
 Clock	venv/share/kivy-examples/android/takepicture/main.py	/^from kivy.clock import Clock$/;"	kind:namespace	line:28
@@ -1260,7 +1261,7 @@ NoteView	venv/share/kivy-examples/tutorials/notes/final/main.py	/^class NoteView
 Notes	venv/share/kivy-examples/tutorials/notes/final/main.py	/^class Notes(Screen):$/;"	kind:class	line:70
 NullImporter	venv/lib/python3.6/imp.py	/^class NullImporter:$/;"	kind:class	line:114
 Number	venv/lib/python3.6/tokenize.py	/^Number = group(Imagnumber, Floatnumber, Intnumber)$/;"	kind:variable	line:134
-NumericProperty	main.py	/^from kivy.properties import NumericProperty, RefernceListProperty$/;"	kind:namespace	line:3
+NumericProperty	main.py	/^from kivy.properties import NumericProperty, ReferenceListProperty, ObjectProperty$/;"	kind:namespace	line:3
 NumericProperty	venv/share/kivy-examples/android/compass/main.py	/^from kivy.properties import NumericProperty$/;"	kind:namespace	line:27
 NumericProperty	venv/share/kivy-examples/audio/main.py	/^from kivy.properties import StringProperty, ObjectProperty, NumericProperty$/;"	kind:namespace	line:21
 NumericProperty	venv/share/kivy-examples/canvas/fbo_canvas.py	/^from kivy.properties import ObjectProperty, NumericProperty$/;"	kind:namespace	line:16
@@ -1287,6 +1288,7 @@ OP_IGNORE	venv/lib/python3.6/sre_constants.py	/^OP_IGNORE = {$/;"	kind:variable	
 ORANGE	venv/share/kivy-examples/canvas/rounded_rectangle.py	/^ORANGE = (1, .45, 0)$/;"	kind:variable	line:11
 ObjFile	venv/share/kivy-examples/3Drendering/main.py	/^from objloader import ObjFile$/;"	kind:namespace	line:23
 ObjFile	venv/share/kivy-examples/3Drendering/objloader.py	/^class ObjFile:$/;"	kind:class	line:39
+ObjectProperty	main.py	/^from kivy.properties import NumericProperty, ReferenceListProperty, ObjectProperty$/;"	kind:namespace	line:3
 ObjectProperty	venv/share/kivy-examples/RST_Editor/main.py	/^from kivy.properties import ObjectProperty$/;"	kind:namespace	line:4
 ObjectProperty	venv/share/kivy-examples/audio/main.py	/^from kivy.properties import StringProperty, ObjectProperty, NumericProperty$/;"	kind:namespace	line:21
 ObjectProperty	venv/share/kivy-examples/canvas/fbo_canvas.py	/^from kivy.properties import ObjectProperty, NumericProperty$/;"	kind:namespace	line:16
@@ -1365,14 +1367,14 @@ PlasmaApp	venv/share/kivy-examples/shader/plasma.py	/^class PlasmaApp(App):$/;"	
 Point	venv/share/kivy-examples/demo/touchtracer/main.py	/^from kivy.graphics import Color, Rectangle, Point, GraphicException$/;"	kind:namespace	line:28
 Point	venv/share/kivy-examples/widgets/colorpicker.py	/^from kivy.graphics import Line, Color, Point$/;"	kind:namespace	line:6
 Pointfloat	venv/lib/python3.6/tokenize.py	/^Pointfloat = group(r'[0-9](?:_?[0-9])*\\.(?:[0-9](?:_?[0-9])*)?',$/;"	kind:variable	line:129
-PongApp	main.py	/^class PongApp(App):$/;"	kind:class	line:10
+PongApp	main.py	/^class PongApp(App):$/;"	kind:class	line:18
 PongApp	venv/share/kivy-examples/tutorials/pong/main.py	/^class PongApp(App):$/;"	kind:class	line:68
 PongApp	venv/share/kivy-examples/tutorials/pong/steps/step1/main.py	/^class PongApp(App):$/;"	kind:class	line:9
 PongApp	venv/share/kivy-examples/tutorials/pong/steps/step2/main.py	/^class PongApp(App):$/;"	kind:class	line:9
 PongApp	venv/share/kivy-examples/tutorials/pong/steps/step3/main.py	/^class PongApp(App):$/;"	kind:class	line:20
 PongApp	venv/share/kivy-examples/tutorials/pong/steps/step4/main.py	/^class PongApp(App):$/;"	kind:class	line:38
 PongApp	venv/share/kivy-examples/tutorials/pong/steps/step5/main.py	/^class PongApp(App):$/;"	kind:class	line:65
-PongBall	main.py	/^class PongBall(Widget):$/;"	kind:class	line:14
+PongBall	main.py	/^class PongBall(Widget):$/;"	kind:class	line:24
 PongBall	venv/share/kivy-examples/tutorials/pong/main.py	/^class PongBall(Widget):$/;"	kind:class	line:24
 PongBall	venv/share/kivy-examples/tutorials/pong/steps/step3/main.py	/^class PongBall(Widget):$/;"	kind:class	line:7
 PongBall	venv/share/kivy-examples/tutorials/pong/steps/step4/main.py	/^class PongBall(Widget):$/;"	kind:class	line:10
@@ -1446,11 +1448,11 @@ Rectangle	venv/share/kivy-examples/svg/main-smaa.py	/^            from kivy.grap
 Rectangle	venv/share/kivy-examples/svg/main-smaa.py	/^            from kivy.graphics import Color, Triangle, Rectangle$/;"	kind:namespace	line:119
 Rectangle	venv/share/kivy-examples/widgets/fbowidget.py	/^from kivy.graphics import Color, Rectangle, Canvas$/;"	kind:namespace	line:36
 Rectangle	venv/share/kivy-examples/widgets/focus_behavior.py	/^from kivy.graphics import Color, Rectangle$/;"	kind:namespace	line:6
+ReferenceListProperty	main.py	/^from kivy.properties import NumericProperty, ReferenceListProperty, ObjectProperty$/;"	kind:namespace	line:3
 ReferenceListProperty	venv/share/kivy-examples/tutorials/pong/main.py	/^    ObjectProperty$/;"	kind:namespace	line:7
 ReferenceListProperty	venv/share/kivy-examples/tutorials/pong/steps/step3/main.py	/^from kivy.properties import NumericProperty, ReferenceListProperty$/;"	kind:namespace	line:3
 ReferenceListProperty	venv/share/kivy-examples/tutorials/pong/steps/step4/main.py	/^    ObjectProperty$/;"	kind:namespace	line:4
 ReferenceListProperty	venv/share/kivy-examples/tutorials/pong/steps/step5/main.py	/^    ObjectProperty$/;"	kind:namespace	line:4
-RefernceListProperty	main.py	/^from kivy.properties import NumericProperty, RefernceListProperty$/;"	kind:namespace	line:3
 RegexFlag	venv/lib/python3.6/re.py	/^class RegexFlag(enum.IntFlag):$/;"	kind:class	line:142
 RegistryError	venv/lib/python3.6/shutil.py	/^class RegistryError(Exception):$/;"	kind:class	line:65
 RenderContext	venv/share/kivy-examples/canvas/multitexture.py	/^from kivy.graphics import RenderContext, Color, Rectangle, BindTexture$/;"	kind:namespace	line:20
@@ -2036,7 +2038,7 @@ VERBOSE	venv/lib/python3.6/re.py	/^    VERBOSE = sre_compile.SRE_FLAG_VERBOSE # 
 VERSION	venv/lib/python3.6/random.py	/^    VERSION = 3     # used by getstate\/setstate$/;"	kind:variable	line:85
 VKeyboard	venv/share/kivy-examples/keyboard/main.py	/^from kivy.uix.vkeyboard import VKeyboard$/;"	kind:namespace	line:13
 ValuesView	venv/lib/python3.6/_collections_abc.py	/^class ValuesView(MappingView):$/;"	kind:class	line:749
-Vector	main.py	/^from kivy.sector import Vector$/;"	kind:namespace	line:4
+Vector	main.py	/^from kivy.vector import Vector$/;"	kind:namespace	line:4
 Vector	venv/share/kivy-examples/android/compass/main.py	/^from kivy.vector import Vector$/;"	kind:namespace	line:29
 Vector	venv/share/kivy-examples/tutorials/pong/main.py	/^from kivy.vector import Vector$/;"	kind:namespace	line:8
 Vector	venv/share/kivy-examples/tutorials/pong/steps/step3/main.py	/^from kivy.vector import Vector$/;"	kind:namespace	line:4
@@ -3583,6 +3585,7 @@ background_down	venv/share/kivy-examples/widgets/sequenced_images/uix/custom_but
 background_normal	venv/share/kivy-examples/widgets/sequenced_images/uix/custom_button.py	/^    background_normal = StringProperty($/;"	kind:variable	line:19
 backslashreplace_errors	venv/lib/python3.6/codecs.py	/^    backslashreplace_errors = None$/;"	kind:variable	line:1094
 backslashreplace_errors	venv/lib/python3.6/codecs.py	/^    backslashreplace_errors = lookup_error("backslashreplace")$/;"	kind:variable	line:1086
+ball	main.py	/^   ball=ObjectProperty(None)$/;"	kind:variable	line:8
 ball	venv/share/kivy-examples/tutorials/pong/main.py	/^    ball = ObjectProperty(None)$/;"	kind:variable	line:34
 ball	venv/share/kivy-examples/tutorials/pong/steps/step4/main.py	/^    ball = ObjectProperty(None)$/;"	kind:variable	line:20
 ball	venv/share/kivy-examples/tutorials/pong/steps/step5/main.py	/^    ball = ObjectProperty(None)$/;"	kind:variable	line:31
@@ -3622,7 +3625,7 @@ bounce_ball	venv/share/kivy-examples/tutorials/pong/steps/step5/main.py	/^    de
 boxlayout_poshint.py	venv/share/kivy-examples/widgets/boxlayout_poshint.py	1;"	kind:file	line:1
 btn	venv/share/kivy-examples/widgets/textinput.py	/^    btn = Button(text='Release\\nall\\nkeyboards', size_hint=(None, None),$/;"	kind:variable	line:39
 bubble_test.py	venv/share/kivy-examples/widgets/bubble_test.py	1;"	kind:file	line:1
-build	main.py	/^    def build(self):$/;"	kind:member	line:11
+build	main.py	/^    def build(self):$/;"	kind:member	line:19
 build	venv/share/kivy-examples/3Drendering/main.py	/^    def build(self):$/;"	kind:member	line:71
 build	venv/share/kivy-examples/android/compass/main.py	/^    def build(self):$/;"	kind:member	line:39
 build	venv/share/kivy-examples/android/takepicture/main.py	/^    def build(self):$/;"	kind:member	line:46
@@ -5908,7 +5911,7 @@ module_repr	venv/lib/python3.6/importlib/_bootstrap.py	/^    def module_repr(mod
 module_repr	venv/lib/python3.6/importlib/_bootstrap_external.py	/^    def module_repr(cls, module):$/;"	kind:member	line:1018
 module_repr	venv/lib/python3.6/importlib/abc.py	/^    def module_repr(self, module):$/;"	kind:member	line:157
 most_common	venv/lib/python3.6/collections/__init__.py	/^    def most_common(self, n=None):$/;"	kind:member	line:541
-move	main.py	/^    def move(self):$/;"	kind:member	line:21
+move	main.py	/^    def move(self):$/;"	kind:member	line:31
 move	venv/lib/python3.6/shutil.py	/^def move(src, dst, copy_function=copy2):$/;"	kind:function	line:500
 move	venv/share/kivy-examples/tutorials/pong/main.py	/^    def move(self):$/;"	kind:member	line:29
 move	venv/share/kivy-examples/tutorials/pong/steps/step3/main.py	/^    def move(self):$/;"	kind:member	line:12
@@ -6878,6 +6881,7 @@ unregister_archive_format	venv/lib/python3.6/shutil.py	/^def unregister_archive_
 unregister_unpack_format	venv/lib/python3.6/shutil.py	/^def unregister_unpack_format(name):$/;"	kind:function	line:856
 untokenize	venv/lib/python3.6/tokenize.py	/^    def untokenize(self, iterable):$/;"	kind:member	line:243
 untokenize	venv/lib/python3.6/tokenize.py	/^def untokenize(iterable):$/;"	kind:function	line:317
+update	main.py	/^   def update(self, dt):$/;"	kind:member	line:12
 update	venv/lib/python3.6/_collections_abc.py	/^    def update(*args, **kwds):$/;"	kind:member	line:824
 update	venv/lib/python3.6/_weakrefset.py	/^    def update(self, other):$/;"	kind:member	line:116
 update	venv/lib/python3.6/collections/__init__.py	/^    def update(*args, **kwds):$/;"	kind:member	line:585
@@ -6945,17 +6949,17 @@ values	venv/lib/python3.6/collections/__init__.py	/^    def values(self):$/;"	ki
 values	venv/lib/python3.6/weakref.py	/^    def values(self):$/;"	kind:member	line:220
 values	venv/lib/python3.6/weakref.py	/^    def values(self):$/;"	kind:member	line:425
 values	venv/share/kivy-examples/widgets/spinner.py	/^    values=('Home', 'Work', 'Other', 'Custom'),$/;"	kind:variable	line:6
-velocity	main.py	/^    velocity = ReferenceListProperty(velocity_x,velocity_y)$/;"	kind:variable	line:19
+velocity	main.py	/^    velocity = ReferenceListProperty(velocity_x,velocity_y)$/;"	kind:variable	line:29
 velocity	venv/share/kivy-examples/tutorials/pong/main.py	/^    velocity = ReferenceListProperty(velocity_x, velocity_y)$/;"	kind:variable	line:27
 velocity	venv/share/kivy-examples/tutorials/pong/steps/step3/main.py	/^    velocity = ReferenceListProperty(velocity_x, velocity_y)$/;"	kind:variable	line:10
 velocity	venv/share/kivy-examples/tutorials/pong/steps/step4/main.py	/^    velocity = ReferenceListProperty(velocity_x, velocity_y)$/;"	kind:variable	line:13
 velocity	venv/share/kivy-examples/tutorials/pong/steps/step5/main.py	/^    velocity = ReferenceListProperty(velocity_x, velocity_y)$/;"	kind:variable	line:24
-velocity_x	main.py	/^    velocity_x = NumericProperty(0)$/;"	kind:variable	line:16
+velocity_x	main.py	/^    velocity_x = NumericProperty(0)$/;"	kind:variable	line:26
 velocity_x	venv/share/kivy-examples/tutorials/pong/main.py	/^    velocity_x = NumericProperty(0)$/;"	kind:variable	line:25
 velocity_x	venv/share/kivy-examples/tutorials/pong/steps/step3/main.py	/^    velocity_x = NumericProperty(0)$/;"	kind:variable	line:8
 velocity_x	venv/share/kivy-examples/tutorials/pong/steps/step4/main.py	/^    velocity_x = NumericProperty(0)$/;"	kind:variable	line:11
 velocity_x	venv/share/kivy-examples/tutorials/pong/steps/step5/main.py	/^    velocity_x = NumericProperty(0)$/;"	kind:variable	line:22
-velocity_y	main.py	/^    velocity_y = NumericProperty(0)$/;"	kind:variable	line:17
+velocity_y	main.py	/^    velocity_y = NumericProperty(0)$/;"	kind:variable	line:27
 velocity_y	venv/share/kivy-examples/tutorials/pong/main.py	/^    velocity_y = NumericProperty(0)$/;"	kind:variable	line:26
 velocity_y	venv/share/kivy-examples/tutorials/pong/steps/step3/main.py	/^    velocity_y = NumericProperty(0)$/;"	kind:variable	line:9
 velocity_y	venv/share/kivy-examples/tutorials/pong/steps/step4/main.py	/^    velocity_y = NumericProperty(0)$/;"	kind:variable	line:12
